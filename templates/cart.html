@@ -2,6 +2,11 @@
 {% extends 'base.html' %}
 
 {% block body %}
+    
+    {% for melon in total_order %}
+        {{ melon }}
+    {% endfor %}
+
 
     <table class="table table-striped">
         <thead>
